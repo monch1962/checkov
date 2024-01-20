@@ -1,4 +1,4 @@
-FROM python:3.10-alpine
+FROM python:3.13.0a3-alpine
 
 RUN apk add --no-cache git util-linux bash openssl
 
